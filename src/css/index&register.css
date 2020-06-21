@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    text-align: center;
+    min-height: 715px;
+    padding-top:20px;
+}
+
+h1 {
+    margin: 10px;
+    font-family: Papyrus, fantasy ;
+}
+
+#formTable {
+    margin: auto auto;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    font-family: Papyrus, fantasy;
+    line-height: 35px;
+}
+
+#formTable input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding:5px;
+    width: 95%;
+}
+
+#formTable #submit{
+    margin-top: 15px;
+    width:95%;
+    background-image: linear-gradient(rgb(131, 202, 104), rgb(106, 165, 83));
+    color: white;
+}
+
+#formTable #submit:hover{
+    background-image: linear-gradient(rgb(80, 202, 62), rgb(70, 165, 51));
+}
+
+#icon:hover{
+    cursor: grab;
+}
+
+p{
+    font-size:10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    height: auto;
+    background-color: transparent;
+    padding: 0 10px;
+}
+

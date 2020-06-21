@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(37, 41, 46);
+}
+
+h1 {
+    color: white;
+}
+
+#formTable {
+    color: white;
+    background: rgb(1,1,1);
+    border: 1px rgb(33, 33, 33) solid;
+}
+
+#formTable input{
+    border: 1px rgb(33, 33, 33) solid;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: yellow;
+}

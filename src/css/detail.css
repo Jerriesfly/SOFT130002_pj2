@@ -1,0 +1,93 @@
+.content-wrapper{
+    min-width: 1000px;
+}
+
+#content-title {
+    width: 100%;
+    text-align: center;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+#uploader {
+    font-size: 10px;
+}
+
+#content-information {
+    height: 420px;
+    margin-bottom: 20px;
+    padding-left: calc(50% - 450px);
+}
+
+#overview {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+#information-wrapper {
+    display: block;
+    float: left;
+}
+
+#like {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#like .content {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#detail {
+    margin-bottom: 20px;
+}
+
+#detail .content {
+    padding: 0;
+}
+
+#detail .content p {
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 0;
+    border-top: 1px rgb(235, 237, 240) solid;
+}
+
+#detail .content span {
+    padding: 10px;
+}
+
+#form{
+    height:40px;
+    width: 400px;
+}
+
+#favourite {
+    height:40px;
+    width: 400px;
+    background: rgb(195, 69, 55);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#favourite.favored {
+    background: rgba(195, 69, 55, 0.48);
+}
+
+#content-description{
+    margin: 0 50px 20px 50px;
+}
+
